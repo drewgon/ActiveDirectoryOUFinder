@@ -12,7 +12,7 @@
 This script does not require installation. However, ensure the Active Directory module is available in your PowerShell environment:
 
 ```powershell
-Import-Module ActiveDirectory
+Import-Module ActiveDirectory ```
 
 ## Configuration
 Before running the script, configure the following elements:
