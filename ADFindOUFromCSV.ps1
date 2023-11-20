@@ -7,7 +7,7 @@ $csvPath = "Path\To\Your\CSVFile.csv" # Users will update this path
 # Read the CSV file into a variable
 $users = Import-Csv -Path $csvPath
 
-# Define the OUs to exclude (Users should update these)
+# Define the OUs to exclude (Users should update these) - Optional I used to remove the expected OU's to find lost users in say a group like "inactive"
 $excludedOUs = @(
     "OU=ExcludeOU1,OU=ParentOU,DC=YourDomain,DC=com",
     "OU=ExcludeOU2,OU=ParentOU,DC=YourDomain,DC=com",
